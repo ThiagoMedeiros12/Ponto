@@ -1,0 +1,23 @@
+POST http://127.0.0.1:8000/login Content-Type: application/json
+
+ {
+            "username": "test",
+            "password": "test1",
+            "email": "test1.email@gmail.com",
+            "profile": {
+                "cargo": "programmer"
+            }
+        }
+
+###
+POST http://127.0.0.1:8000/register Content-Type: application/json
+
+ {
+            "username": "test",
+            "password": "test1",
+            "email": "test1.email@gmail.com",
+            "profile": {
+                "cargo": "programmer"
+            }
+        }
+###
